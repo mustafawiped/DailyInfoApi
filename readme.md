@@ -5,12 +5,14 @@
 
 ## Kurulum
 
-- Projenizin ApiUrl kısmına https://github.com/mustafawp/DailyInfoApi/blob/main/informations.json yazmanız yeterlidir.
+- UpdateInformation.py dosyasını kendinize uygun şekilde düzenleyin ve informations.json dosyasını kendi GitHub hesabınıza yükleyin.
+- Herhangi bir sanal sunucu veya heroku gibi bulut tabanlı platform sitelerinden UpdateInformations.py dosyasını her 6 saatte bir çalışacak şekilde ayarlayın. 
 
 ## Kullanım
 
-JSON dosyasına erişmek için aşağıdaki endpoint'i kullanabilirsiniz:
-Örnek JSON yanıtı:
+- Projenizde ApiKey kısmına https://raw.githubusercontent.com/{kullanici_adi}/{repository_adi}/main/informations.json yazmanız yeterli olacaktır.
+
+Örnek ApiKey çıktısı:
 ```json
 {
   "Birinci rastgele bilgi...",
