@@ -114,7 +114,7 @@ def guncelle_json(bilgiler):
     repository = "DailyInfoApi"
     dosya_yolu = "informations.json"
 
-    data = random.choices(bilgiler, k=50)
+    data = random.choices(bilgiler, k=20)
 
     url = f"https://api.github.com/repos/{kullanici_adi}/{repository}/contents/{dosya_yolu}"
     headers = {
