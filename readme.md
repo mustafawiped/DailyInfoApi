@@ -1,5 +1,3 @@
-# DailyInfoApi
-
 ## API bilgisi
 
 - informations.json Dosyası her 6 saatte bir güncellenen 20 tane rastgele bilgi içeren bir JSON dosyasıdır.
